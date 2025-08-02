@@ -1,11 +1,5 @@
-"""Handles dataset creation for the PyTorch models - namely segemntation mask ones.
-
-References:
-    https://pytorch.org/docs/stable/data.html
-    https://github.com/aladdinpersson/Machine-\
-    Learning-Collection/blob/master/ML/Pytorch/Basics/custom_dataset/custom_dataset.py
-    https://pytorch.org/tutorials/beginner/data_loading_tutorial.html
-    https://shashikachamod4u.medium.com/excel-csv-to-pytorch-dataset-def496b6bcc1
+"""
+Handles dataset creation for the PyTorch models - namely segemntation mask ones.
 """
 
 import pathlib
@@ -882,9 +876,9 @@ if __name__ == "__main__":
 
     # Generate a complete dataset from NIfTI files
     dataset_info = generate_complete_dataset(
-        template_file="/home/vice-calibras/mus_brain_seg/data/average_template_25.nii.gz",
-        annotation_file="/home/vice-calibras/mus_brain_seg/data/annotation_25.nii.gz",
-        output_dir="/home/vice-calibras/mus_brain_seg/data/mouse_brain_unet_dataset",
+        template_file="/mus_brain_seg/data/average_template_25.nii.gz",
+        annotation_file="/mus_brain_seg/data/annotation_25.nii.gz",
+        output_dir="/mus_brain_seg/data/mouse_brain_unet_dataset",
         image_size=128,
         n_slices_per_axis=15,
         test_split=0.2,

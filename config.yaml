@@ -1,10 +1,10 @@
 dataset:
   train:
-    image: "/home/vice-calibras/mus_brain_seg/data/mouse_brain_unet_dataset/train/JPEGImages"
-    mask: "/home/vice-calibras/mus_brain_seg/data/mouse_brain_unet_dataset/train/SegmentationClass"
+    image: "/mus_brain_seg/data/mouse_brain_unet_dataset/train/JPEGImages"
+    mask: "/mus_brain_seg/data/mouse_brain_unet_dataset/train/SegmentationClass"
   test:
-    image: "/home/vice-calibras/mus_brain_seg/data/mouse_brain_unet_dataset/test/JPEGImages"
-    mask: "/home/vice-calibras/mus_brain_seg/data/mouse_brain_unet_dataset/test/SegmentationClass"
+    image: "/mus_brain_seg/data/mouse_brain_unet_dataset/test/JPEGImages"
+    mask: "/mus_brain_seg/data/mouse_brain_unet_dataset/test/SegmentationClass"
 seed: 42
 output_size: 128
 batch_size: 8
